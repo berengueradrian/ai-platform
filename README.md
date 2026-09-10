@@ -20,6 +20,8 @@ framework demos.
 ## Repository map
 
 - `docs/` — focused concept notes and reading paths.
+- `docs/resources/` — curated datasets, models, papers, engineering documentation, and news.
+- `docs/platform-storyline.md` — the support-ticket platform thread connecting the projects.
 - `exercises/` — interview-style prompts; intentionally solution-free.
 - `solutions/` — reasoning guides, review rubrics, and reference architectures.
 - `experiments/` — measured comparisons and evidence.
@@ -29,6 +31,11 @@ framework demos.
 
 The first implementation should be a small ML baseline in
 `exercises/01-ml-foundations/01-baseline-and-split.md`, not the capstone.
+
+The application storyline is support-ticket intelligence: classification and abstention first,
+then retrieval, resilient model serving, durable workflows, fine-tuning, safety, and integration.
+Use it to choose coherent datasets and interfaces while still running isolated experiments when
+they teach a concept more clearly.
 
 ## Source basis
 

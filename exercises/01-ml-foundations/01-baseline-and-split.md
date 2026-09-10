@@ -2,16 +2,22 @@
 
 ## Mission
 
-Build a small supervised-learning baseline for a realistic classification problem.
-The goal is to establish a trustworthy evaluation protocol before improving the model.
+Build the first reusable component of the support-ticket platform: a small supervised-learning
+triage baseline. Given ticket text, predict an intent and decide whether the system should route
+automatically or abstain for human review. The goal is to establish a trustworthy evaluation
+protocol before improving the model.
 
 ## Requirements
 
-- Choose or create a dataset with an imbalanced or asymmetric-error setting.
+- Use BANKING77 for intent classification, CLINC150 for out-of-scope behavior, or justify a
+  different dataset using `templates/DATASET_SELECTION.md`.
+- Create or label a small organization-specific slice for priority or queue routing; mark synthetic
+  and human-reviewed labels separately from public benchmark labels.
 - Define train/validation/test boundaries and document leakage risks.
 - Implement one deliberately simple baseline.
 - Select metrics that reflect the decision cost.
 - Produce an error analysis by at least two meaningful slices.
+- Return a typed prediction containing intent, confidence, out-of-scope status, and human-review flag.
 
 ## Constraints
 
@@ -26,8 +32,10 @@ interview answer defending the split and metrics.
 ## Investigate
 
 What can leak across rows? What does the baseline tell you? Which errors are expensive?
-How would calibration change the decision threshold?
+How would calibration change the decision threshold? Which tickets must never be auto-routed?
 
 ## Questions to answer
 
 What is overfitting? Why can accuracy mislead? Which result would make you distrust the experiment?
+How will this classifier feed the later gateway, RAG, and agent projects without coupling them to
+one model implementation?

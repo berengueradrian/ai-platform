@@ -12,5 +12,6 @@ Complete these as separate missions. Keep the system small enough that failures 
 8. [Citations and provenance](08-citations.md)
 9. [Bad-case forensics](09-retrieval-forensics.md)
 10. [Productionization](10-production-rag.md)
+11. [Knowledge graph routing](11-knowledge-graph-routing.md)
 
 Do not choose a database or framework before defining the workload and measurements.

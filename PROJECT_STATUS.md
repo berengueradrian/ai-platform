@@ -11,7 +11,7 @@ Update this file as evidence is produced. Code running is not completion.
 
 | Phase | Status | Mastery | Next action | Evidence |
 |---|---|---|---|---|
-| 0. Methodology | IN_PROGRESS | DEVELOPING | Complete first experiment and ADR | — |
+| 0. Methodology | IN_PROGRESS | DEVELOPING | Complete dataset selection note, first experiment, and ADR | — |
 | 1. ML foundations | NOT_STARTED | UNKNOWN | Read exercise 01 | — |
 | 2. Deep learning | NOT_STARTED | UNKNOWN | — | — |
 | 3. Transformers | NOT_STARTED | UNKNOWN | — | — |
