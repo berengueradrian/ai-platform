@@ -13,9 +13,13 @@ and safety controls.
 
 ## Libraries
 
-Compose only libraries justified by earlier experiments. Likely components include FastAPI,
-Pydantic, scikit-learn, PyTorch/Transformers, Sentence Transformers, a storage layer, Redis,
-OpenTelemetry, and a workflow implementation. Do not introduce a framework merely to connect pieces.
+Compose only libraries justified by earlier experiments. Likely components include
+[FastAPI](https://fastapi.tiangolo.com/), [Pydantic](https://docs.pydantic.dev/),
+[scikit-learn](https://scikit-learn.org/stable/), [PyTorch](https://docs.pytorch.org/),
+[Transformers](https://huggingface.co/docs/transformers/),
+[Sentence Transformers](https://www.sbert.net/), a storage layer,
+[Redis](https://redis.io/docs/), [OpenTelemetry](https://opentelemetry.io/docs/), and a workflow
+implementation. Do not introduce a framework merely to connect pieces.
 
 ## Data and sources
 

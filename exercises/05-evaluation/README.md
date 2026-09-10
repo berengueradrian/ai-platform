@@ -7,5 +7,8 @@ reuse the evaluation platform.
 Read [core terminology](../../docs/fundamentals/terminology.md) for golden sets, slices, calibration,
 faithfulness, and LLM judges before starting.
 
-Libraries: `pandas`, `numpy`, `scikit-learn`, `jsonschema`, `pytest`.
-Sources: dataset cards, model cards, Papers with Code, original evaluation papers, and the resource guide.
+Libraries: pandas, NumPy, scikit-learn, JSON Schema, and Pytest; see the [direct package links](../../docs/resources/README.md#python-packages-and-tools).
+Sources: [dataset cards](https://huggingface.co/docs/hub/datasets-adding),
+[model cards](https://huggingface.co/docs/hub/model-cards),
+[Papers with Code](https://paperswithcode.com/), original evaluation papers, and the
+[resource guide](../../docs/resources/README.md).

@@ -8,4 +8,6 @@ output, provenance, and SLOs before starting.
 
 Libraries: standard Python first; evaluate `langgraph` and durable workflow tools only after the
 state-machine baseline. Use `pydantic` for typed tool contracts and `pytest` for recovery tests.
-Sources: LangGraph documentation, workflow-engine documentation, model cards, and security guidance.
+Sources: [LangGraph documentation](https://langchain-ai.github.io/langgraph/), workflow-engine
+documentation, [model cards](https://huggingface.co/docs/hub/model-cards), and
+[OWASP LLM guidance](https://genai.owasp.org/llm-top-10/).

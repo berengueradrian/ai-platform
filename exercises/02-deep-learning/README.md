@@ -6,5 +6,6 @@ ticket text or structured ticket metadata, but keep the training task simple eno
 Read [core terminology](../../docs/fundamentals/terminology.md) for gradients, backpropagation,
 regularization, and holdouts before starting.
 
-Libraries: `torch`, `tensorboard`, `numpy`, `pytest`.
-Sources: [PyTorch](https://docs.pytorch.org/), model cards, arXiv, and the resource guide.
+Libraries: PyTorch, TensorBoard, NumPy, and Pytest; see the [direct package links](../../docs/resources/README.md#python-packages-and-tools).
+Sources: [PyTorch](https://docs.pytorch.org/), [model cards](https://huggingface.co/docs/hub/model-cards),
+[arXiv](https://arxiv.org/), and the [resource guide](../../docs/resources/README.md).

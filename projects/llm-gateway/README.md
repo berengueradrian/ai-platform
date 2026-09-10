@@ -8,9 +8,9 @@ deterministic or local path rather than automatically using an LLM.
 
 ## Libraries
 
-`fastapi`, `httpx`, `pydantic`, `tenacity`, `redis`, `prometheus-client`, `opentelemetry-api`,
-`opentelemetry-sdk`, and `pytest`. Compare provider SDKs behind the adapter rather than exposing
-their types to application code.
+FastAPI, HTTPX, Pydantic, Tenacity, Redis, Prometheus client, OpenTelemetry, and Pytest. See the
+[direct package links](../../docs/resources/README.md#python-packages-and-tools). Compare provider
+SDKs behind the adapter rather than exposing their types to application code.
 
 ## Data and sources
 

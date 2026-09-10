@@ -7,4 +7,5 @@ Read [core terminology](../../docs/fundamentals/terminology.md) for tokenization
 Q/K/V, and KV cache before starting.
 
 Libraries: `torch`, `numpy`, `pytest`; add `transformers` after the reference implementation.
-Sources: PyTorch, [Transformers](https://huggingface.co/docs/transformers/), arXiv, ACL Anthology.
+Sources: [PyTorch](https://docs.pytorch.org/), [Transformers](https://huggingface.co/docs/transformers/),
+[arXiv](https://arxiv.org/), and [ACL Anthology](https://aclanthology.org/).

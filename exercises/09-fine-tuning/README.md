@@ -6,5 +6,8 @@ response-format behavior as candidate tasks. Never remove the prompted and base-
 Read [core terminology](../../docs/fundamentals/terminology.md) for holdouts, SFT, LoRA, QLoRA,
 regularization, and catastrophic forgetting before starting.
 
-Libraries: `transformers`, `datasets`, `accelerate`, `peft`, `trl`; add `bitsandbytes` only for a
-supported GPU experiment. Sources: Hugging Face model/dataset cards, PEFT docs, and original papers.
+Libraries: Transformers, Datasets, Accelerate, PEFT, and TRL; add bitsandbytes only for a
+supported GPU experiment. Sources: [Transformers](https://huggingface.co/docs/transformers/),
+[Datasets](https://huggingface.co/docs/datasets/), [Accelerate](https://huggingface.co/docs/accelerate/),
+[PEFT](https://huggingface.co/docs/peft/), [TRL](https://huggingface.co/docs/trl/),
+[model cards](https://huggingface.co/docs/hub/model-cards), and original papers.

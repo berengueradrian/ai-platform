@@ -8,8 +8,9 @@ in ticket handling cannot be represented by a workflow.
 
 ## Libraries
 
-Start with standard Python state-machine code, `pydantic`, and `pytest`. Evaluate `langgraph`,
-`sqlmodel`, or a durable workflow engine only after writing the persistence and recovery contracts.
+Start with standard Python state-machine code, Pydantic, and Pytest. Evaluate LangGraph, SQLModel,
+or a durable workflow engine only after writing the persistence and recovery contracts. See the
+[direct package links](../../docs/resources/README.md#python-packages-and-tools).
 
 ## Data and sources
 
@@ -25,5 +26,6 @@ tests, and metrics for success, steps, tool failures, recovery, tokens, and cost
 ## Resource path
 
 Use [LangGraph documentation](https://langchain-ai.github.io/langgraph/), workflow-engine docs,
-Pydantic, model cards, and [docs/resources](../../docs/resources/README.md). Frameworks are an
+[Pydantic](https://docs.pydantic.dev/), [model cards](https://huggingface.co/docs/hub/model-cards),
+and [docs/resources](../../docs/resources/README.md). Frameworks are an
 implementation comparison, not the learning objective.

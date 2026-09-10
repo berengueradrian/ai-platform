@@ -137,6 +137,30 @@ benchmark before treating a claim as evidence.
 - [LangGraph](https://langchain-ai.github.io/langgraph/) — use after implementing state-machine concepts.
 - [vLLM](https://docs.vllm.ai/) — study when optimizing model serving.
 
+### Python packages and tools
+
+These are the direct package/documentation links for libraries referenced throughout the roadmap:
+
+- [NumPy](https://numpy.org/doc/), [pandas](https://pandas.pydata.org/docs/), [SciPy](https://docs.scipy.org/doc/scipy/),
+  [scikit-learn](https://scikit-learn.org/stable/), [Matplotlib](https://matplotlib.org/stable/), and
+  [Seaborn](https://seaborn.pydata.org/)
+- [Pytest](https://docs.pytest.org/), [Ruff](https://docs.astral.sh/ruff/), [JupyterLab](https://jupyterlab.readthedocs.io/),
+  and [TensorBoard](https://www.tensorflow.org/tensorboard)
+- [Uvicorn](https://www.uvicorn.org/), [Tenacity](https://tenacity.readthedocs.io/),
+  [Prometheus Python client](https://prometheus.github.io/client_python/), and
+  [JSON Schema](https://json-schema.org/)
+- [rank-bm25](https://github.com/dorianbrown/rank_bm25), [pypdf](https://pypdf.readthedocs.io/),
+  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), and
+  [NetworkX](https://networkx.org/documentation/stable/)
+- [Hugging Face Datasets](https://huggingface.co/docs/datasets/), [Accelerate](https://huggingface.co/docs/accelerate/),
+  [PEFT](https://huggingface.co/docs/peft/), [TRL](https://huggingface.co/docs/trl/), and
+  [bitsandbytes](https://huggingface.co/docs/bitsandbytes/)
+- [SQLModel](https://sqlmodel.tiangolo.com/), [Optimum](https://huggingface.co/docs/optimum/),
+  and [ONNX Runtime](https://onnxruntime.ai/docs/)
+
+Use the documentation link to understand a package; use the package name in the project environment.
+Do not install every package listed here at once.
+
 ## News and industry signals
 
 - [The Batch](https://www.deeplearning.ai/the-batch/)

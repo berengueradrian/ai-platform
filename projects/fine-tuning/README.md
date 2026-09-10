@@ -7,8 +7,8 @@ fine-tune to memorize changing runbook knowledge; use retrieval for that.
 
 ## Libraries
 
-`transformers`, `datasets`, `accelerate`, `peft`, `trl`, and `pytest`. Add `bitsandbytes` only for
-a compatible GPU-based QLoRA experiment.
+Transformers, Datasets, Accelerate, PEFT, TRL, and Pytest. Add bitsandbytes only for a compatible
+GPU-based QLoRA experiment. See the [direct package links](../../docs/resources/README.md#python-packages-and-tools).
 
 ## Data and sources
 
