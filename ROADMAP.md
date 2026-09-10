@@ -35,9 +35,12 @@ capstone is bucket 11. The phase numbers below remain the conceptual sequence.
 - **Exercises/project:** support-ticket intent/priority baseline, metric selection, error analysis,
   model comparison. Use BANKING77 for intent, CLINC150 for out-of-scope behavior, and clearly
   separated hand-labeled or synthetic labels for queue/priority.
-- **Libraries:** `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `pytest`, `ruff`.
+- **Libraries:** `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `seaborn`, `pytest`, `ruff`,
+  `datasets`, and `huggingface_hub`.
 - **Resources:** UCI, OpenML, Hugging Face Datasets, Kaggle, BANKING77, and CLINC150 from
   [docs/resources/README.md](docs/resources/README.md).
+- **Acquisition:** follow [the dataset acquisition guide](docs/resources/README.md#how-to-obtain-resources)
+  and the project-specific [ML foundations guide](projects/ml-foundations/README.md).
 - **Experiments/artifacts:** reproducible dataset split, baseline table, error taxonomy.
 - **Questions:** Which errors matter? When is accuracy misleading? What is leakage?
 - **Interview:** design a classifier evaluation for an imbalanced workload.

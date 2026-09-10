@@ -4,6 +4,87 @@ Use this as a discovery map, not a reading queue. For each project, start with o
 source, one implementation reference, and one dataset/model card. Record what you used in the
 project README or an experiment report.
 
+## How to obtain resources
+
+### Hugging Face datasets
+
+Install the dataset client once in the project environment:
+
+    python -m pip install datasets huggingface_hub
+
+Load a dataset in Python. The first run downloads it to the Hugging Face cache:
+
+    from datasets import load_dataset
+
+    banking77 = load_dataset("PolyAI/banking77")
+    clinc_oos = load_dataset("DeepPavlov/clinc_oos")
+
+For reproducibility, load a specific dataset revision once you have selected it:
+
+    banking77 = load_dataset(
+        "PolyAI/banking77",
+        revision="FULL_COMMIT_SHA_HERE",
+    )
+
+Inspect the dataset page and record the revision, license, and available splits in
+the dataset-selection template. The Hugging Face loader supports revisions and streaming;
+the default main revision can change over time. [Loading datasets](https://huggingface.co/docs/datasets/loading)
+
+You can also download a repository or selected files from the command line:
+
+    hf download PolyAI/banking77 --repo-type dataset --local-dir data/raw/banking77
+    hf download DeepPavlov/clinc_oos --repo-type dataset --local-dir data/raw/clinc_oos
+
+Use hf download with dry-run first for large repositories. [Hugging Face downloads](https://huggingface.co/docs/huggingface_hub/guides/download)
+
+### Kaggle datasets
+
+Create a Kaggle account, create an API token, and store it using Kaggle’s documented
+authentication method. Then install and download:
+
+    python -m pip install kaggle
+    kaggle datasets download -d OWNER/DATASET-NAME -p data/raw --unzip
+
+Use the dataset page’s owner/name, license, and version. Do not copy a Kaggle dataset into
+the repository unless its license permits it. [Kaggle dataset documentation](https://www.kaggle.com/docs/datasets)
+
+### UCI and OpenML
+
+For UCI, open the dataset page, download the published archive or data file, and store it under
+data/raw/ without committing it. Record the exact page URL and access date.
+
+For OpenML, install its client and load a named or numeric dataset:
+
+    python -m pip install openml
+
+    import openml
+    dataset = openml.datasets.get_dataset(DATASET_ID)
+
+Record the OpenML dataset ID and version in the dataset-selection note. [OpenML](https://www.openml.org/)
+
+### Models
+
+Read the model card first, then either load the model through its library or download a pinned
+revision:
+
+    python -m pip install transformers huggingface_hub
+
+    from transformers import pipeline
+    classifier = pipeline("text-classification", model="MODEL_OWNER/MODEL_NAME")
+
+For a reproducible model artifact:
+
+    hf download MODEL_OWNER/MODEL_NAME --revision FULL_COMMIT_SHA_HERE --local-dir models/model-name
+
+Do not download large model weights until the experiment requires them. Record hardware,
+model revision, license, and expected memory use in the resource-note template.
+
+### Papers and documentation
+
+Use the linked browser page or PDF for reading. Record the paper URL, version/date, and the
+specific claim or experiment it informs. For code, clone or download the linked repository
+outside the project’s tracked data directory, then record its commit rather than copying it blindly.
+
 ## Datasets
 
 - [Hugging Face Datasets](https://huggingface.co/docs/hub/datasets) — searchable datasets,
