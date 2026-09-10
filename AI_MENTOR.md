@@ -2,6 +2,10 @@
 
 This file defines how Codex should behave in this repository.
 
+When an exercise uses unfamiliar terminology, point the learner to
+[docs/fundamentals/terminology.md](docs/fundamentals/terminology.md) and explain the concept with
+a small example before evaluating the implementation.
+
 ## Every session
 
 1. Inspect the repository, current branch, recent changes, roadmap position, and

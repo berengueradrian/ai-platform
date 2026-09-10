@@ -6,6 +6,8 @@ measurements, and failure analysis are strong enough to defend the design.
 
 The continuous application thread is documented in [docs/platform-storyline.md](docs/platform-storyline.md),
 and source discovery is documented in [docs/resources/README.md](docs/resources/README.md).
+When a concept in a phase is unfamiliar, use [docs/fundamentals/terminology.md](docs/fundamentals/terminology.md)
+before attempting the exercise.
 
 The initial repository uses eleven exercise buckets to keep navigation compact: optimization
 is introduced through the fine-tuning/inference projects, safety is bucket 10, and the final

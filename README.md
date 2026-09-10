@@ -20,6 +20,7 @@ framework demos.
 ## Repository map
 
 - `docs/` — focused concept notes and reading paths.
+- `docs/fundamentals/terminology.md` — plain-language definitions of terms used by the exercises.
 - `docs/resources/` — curated datasets, models, papers, engineering documentation, and news.
 - `docs/platform-storyline.md` — the support-ticket platform thread connecting the projects.
 - `exercises/` — interview-style prompts; intentionally solution-free.

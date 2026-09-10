@@ -21,7 +21,11 @@ protocol before improving the model.
 
 ## Constraints
 
-Do not tune on the test set. Record dataset version, random seeds, and environment.
+Read [core terminology](../../docs/fundamentals/terminology.md) before starting. In particular,
+do not tune on the test set: fit on training data, make development choices on validation data,
+and use the test set only for the final estimate. Do not repeatedly inspect test performance and
+then change the model, features, threshold, or hyperparameters, because that makes the test score
+optimistic. Record dataset version, random seeds, and environment.
 Do not claim improvement without a baseline table and confidence/uncertainty discussion.
 
 ## Deliverables

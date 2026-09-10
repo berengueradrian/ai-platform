@@ -2,6 +2,9 @@
 
 Complete these as separate missions. Keep the system small enough that failures remain inspectable.
 
+Read [core terminology](../../docs/fundamentals/terminology.md) for embeddings, BM25, ANN, chunking,
+hybrid retrieval, reranking, provenance, and Recall@k before starting.
+
 1. [Dense retrieval baseline](01-dense-retrieval.md)
 2. [Measure retrieval quality](02-retrieval-evaluation.md)
 3. [BM25 baseline](03-bm25.md)
