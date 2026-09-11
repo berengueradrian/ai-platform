@@ -9,8 +9,11 @@ protocol before improving the model.
 
 ## Requirements
 
-- Use BANKING77 for intent classification, CLINC150 for out-of-scope behavior, or justify a
-  different dataset using `templates/DATASET_SELECTION.md`.
+- Use [BANKING77](https://huggingface.co/datasets/PolyAI/banking77) for intent classification
+  and [CLINC OOS / CLINC150](https://huggingface.co/datasets/DeepPavlov/clinc_oos) for out-of-scope
+  behavior. Use the [original CLINC150 repository](https://github.com/clinc/oos-eval) to understand
+  the dataset’s purpose. If you choose a different dataset, justify it using
+  `templates/DATASET_SELECTION.md` and follow the [dataset acquisition guide](../../docs/resources/README.md#how-to-obtain-resources).
 - Create or label a small organization-specific slice for priority or queue routing; mark synthetic
   and human-reviewed labels separately from public benchmark labels.
 - Define train/validation/test boundaries and document leakage risks.
