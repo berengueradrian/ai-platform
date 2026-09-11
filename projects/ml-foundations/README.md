@@ -31,8 +31,10 @@ the path, revision, license, and split names in the dataset-selection template.
 
 ## Why two datasets?
 
-- BANKING77 supplies fine-grained intent labels similar to customer-support routing.
-- CLINC150 supplies out-of-scope examples for testing abstention.
+- [BANKING77](https://huggingface.co/datasets/PolyAI/banking77) supplies fine-grained intent labels
+  similar to customer-support routing.
+- [CLINC150](https://huggingface.co/datasets/DeepPavlov/clinc_oos) supplies out-of-scope examples
+  for testing abstention.
 - Neither dataset supplies your organization’s true priority or queue policy. Create a small,
   clearly labeled synthetic or human-reviewed mapping for that part.
 

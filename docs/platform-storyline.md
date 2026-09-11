@@ -44,9 +44,9 @@ Components should produce versioned, inspectable records rather than opaque stri
 
 ## Dataset strategy
 
-- Use **BANKING77** for a fine-grained support-intent baseline; inspect labels because published
+- Use [**BANKING77**](https://huggingface.co/datasets/PolyAI/banking77) for a fine-grained support-intent baseline; inspect labels because published
   datasets can contain annotation errors.
-- Use **CLINC150** for out-of-scope detection and abstention behavior.
+- Use [**CLINC150**](https://huggingface.co/datasets/DeepPavlov/clinc_oos) for out-of-scope detection and abstention behavior.
 - Add a small hand-labeled or synthetic dataset for organization-specific priority and queue labels.
 - Keep public benchmark labels, synthetic labels, and human-reviewed labels separate.
 - Record source, revision, license, provenance, label definitions, limitations, and leakage risks

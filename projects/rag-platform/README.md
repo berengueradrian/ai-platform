@@ -16,7 +16,8 @@ the human approver.
 ## Data and sources
 
 Start with a small, versioned runbook corpus plus ticket queries. Use public intent datasets only
-for query behavior; do not pretend BANKING77 is an internal documentation corpus. Use
+for query behavior; do not pretend [BANKING77](https://huggingface.co/datasets/PolyAI/banking77)
+is an internal documentation corpus. Use
 [model cards](https://huggingface.co/docs/hub/model-cards) for embedding/reranker selection
 and the dataset-selection template for corpus provenance.
 
